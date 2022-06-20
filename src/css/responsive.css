@@ -1,0 +1,50 @@
+@media(max-width:375px) {
+    body {
+        background: url('../image/bg-mobile.svg') center center no-repeat;
+        background-color: var(--ola);
+        background-size: cover;
+    }
+
+    .cabecalho img {
+        width: 200px;
+        padding: 10px 20px;
+    }
+
+    .conteiner {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .conteiner img {
+        width: 300px;
+        margin-top: 3.5rem;
+        padding: 0 20px;
+        margin-left: 10px;
+    }
+
+    .sobre {
+        margin: 0 auto;
+    }
+
+    .sobre .titulo {
+        font-size: 2.8rem;
+        margin-top: 3.5rem;
+    }
+
+    .sobre .resumo {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .social {
+        display: block;
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+
+
+
+}
